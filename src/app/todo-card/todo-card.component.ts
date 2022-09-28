@@ -28,8 +28,8 @@ export class TodoCardComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.tasks.push({tittle: "Tarea predeterminado no hecha", done: false});
-    this.tasks.push({tittle: "Tarea predeterminado hecha", done: true});
+    this.tasks.push({tittle: "CONSEGUIR GOMITAS", done: false});
+    this.tasks.push({tittle: "CONSEGUIR DINERO PARA LAS GOMITAS", done: true});
 
   }
 
